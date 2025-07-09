@@ -27,17 +27,24 @@ CHAT APP STEP BY STEP RUNNING PROCESS :
 week-2
 TOPIC:
             Porting Contiki-NG to EFR32ZG28 (ARM Cortex-M0+):
-            >>Porting Contiki-NG to EFR32ZG28 Platform:
+            >>Porting Contiki-NG to EFR32ZG28 Platform
+
+            
     OBJECTIVE:
                 To enable Contiki-NG RTOS on the EFR32ZG28 SoC (Cortex-M0+) by:
                       • Creating a new platform definition under arch/platform/efr32zg28/
                       • Building and running a sample application (LED blink)
+    
     TARGET PLATFORM: 
                      Component
                        >>CPU Core - ARM Cortex-M0+
                        >>RTOS    - Contiki-NG
                       >>Toolchain - arm-none-eabi-gcc
-    STRUCTURE SETUP:                  
+    
+    
+STRUCTURE SETUP:                  
+
+
 contiki-ng/
 ├── arch/
 │   ├── cpu/
@@ -59,6 +66,8 @@ contiki-ng/
 ├── examples/
 │   └── efr32zg28/
 │       └── led_blink.c
+
+
 
 BUILD PROCESS:
 >>cd contiki-ng/examples/efr32zg28/
