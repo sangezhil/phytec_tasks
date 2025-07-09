@@ -15,6 +15,7 @@ TOPIC:
 
 CHAT APP STEP BY STEP RUNNING PROCESS :  
 
+
 1) To Compaile the Both Server and Client Source file
     i) gcc server.c -o server
     ii) gcc client.c -o client
