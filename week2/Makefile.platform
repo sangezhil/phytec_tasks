@@ -1,0 +1,14 @@
+MODULES += arch/platform/efr32zg28
+MODULES += arch/cpu/efr32
+
+PLATFORM_SOURCEFILES += \
+  efr32zg28.c \
+  leds-arch.c \
+  gpio-hal-arch.c \
+  syscalls.c \
+  rtimer-arch.c \
+  ../../arch/cpu/efr32/dev/efr32zg28-soc.c
+
+CPU_ARCH := arm
+COMPILER := gcc
+
