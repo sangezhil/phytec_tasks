@@ -28,17 +28,16 @@ week-2
 TOPIC:
             Porting Contiki-NG to EFR32ZG28 (ARM Cortex-M0+):
             >>Porting Contiki-NG to EFR32ZG28 Platform:
-    Objective:
+    OBJECTIVE:
                 To enable Contiki-NG RTOS on the EFR32ZG28 SoC (Cortex-M0+) by:
                       • Creating a new platform definition under arch/platform/efr32zg28/
                       • Building and running a sample application (LED blink)
-    Target Platform Details:
+    TARGET PLATFORM: 
                      Component
                        >>CPU Core - ARM Cortex-M0+
                        >>RTOS    - Contiki-NG
                       >>Toolchain - arm-none-eabi-gcc
-    Structure Setup:
-                    
+    STRUCTURE SETUP:                  
 contiki-ng/
 ├── arch/
 │   ├── cpu/
@@ -61,7 +60,7 @@ contiki-ng/
 │   └── efr32zg28/
 │       └── led_blink.c
 
-Build Process:
+BUILD PROCESS:
 >>cd contiki-ng/examples/efr32zg28/
 >>make clean
 >>make TARGET=efr32zg28 led_blink V=1
